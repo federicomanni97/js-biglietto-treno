@@ -15,8 +15,8 @@ const fortyDiscount = 40/100;
 let travelCost = ( km * price);
 let fullPrice
 
-if (età < 18) {
-    fullPrice = travelcost - (travelCost * twentyDiscount); 
+if (età < 18){
+    fullPrice = travelCost - (travelCost * twentyDiscount); 
 } else if (età >= 65){
     fullPrice = travelCost - (travelCost * fortyDiscount);
 } else {
