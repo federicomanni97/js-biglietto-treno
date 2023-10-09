@@ -22,5 +22,7 @@ if (età < 18) {
 } else {
     fullPrice = travelCost;
 }
+document.getElementById('total-price').innerHTML = ` ${fullPrice.toFixed(2)}
+`
 
 console.log(fullPrice.toFixed(2));

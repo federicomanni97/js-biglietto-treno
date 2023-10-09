@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body{
+    height: 100%;
+    background-color: #006A4E;
+}
+
+.box{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    margin: 20px 0px;
+    font-size: 40px;
+    color: rgb(102, 6, 6);
+}
+
+h2{
+    font-size: 30px;
+}
+
+#total-price::after{
+    content: "\20AC";
+}
