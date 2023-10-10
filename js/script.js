@@ -7,17 +7,17 @@
 
 let km = prompt("Inserisci i km");
 console.log(km)
-let età = prompt("Inserisci la tua età");
-console.log(età)
+let eta = prompt("Inserisci la tua età");
+console.log(eta)
 const price = 0.21;
 const twentyDiscount = 20/100;
 const fortyDiscount = 40/100;
 let travelCost = ( km * price);
 let fullPrice
 
-if (età < 18){
+if (eta < 18){
     fullPrice = travelCost - (travelCost * twentyDiscount); 
-} else if (età >= 65){
+} else if (eta >= 65){
     fullPrice = travelCost - (travelCost * fortyDiscount);
 } else {
     fullPrice = travelCost;
